@@ -1,0 +1,57 @@
+{
+  "title": "Change spacebar",
+  "rules": [
+    {
+      "description": "Change f to shift if pressed with other keys",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change j to shift if pressed with other keys",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "j"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
