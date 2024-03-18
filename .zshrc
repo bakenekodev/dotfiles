@@ -174,8 +174,10 @@ alias kbuck="lsof -t -i tcp:5000 | xargs kill"
 alias kth="lsof -t -i tcp:6000 | xargs kill"
 alias ks="lsof -t -i tcp:4321 | xargs kill"
 alias pmrs="se deploy --create-mr bucket production"
-alias dst="se deploy bucket s &"
-alias dpr="se deploy bucket p &"
+alias dst="se deploy bucket s"
+alias dpr="se deploy bucket p"
+alias n="nvim"
+alias g="lazygit"
 
 function gsa() {
   git stash apply stash@{"$1"}
