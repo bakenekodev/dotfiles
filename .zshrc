@@ -9,6 +9,7 @@ export PATH="/Users/mariusbitca/homebrew/Cellar/postgresql@10/10.22_6/bin:$HOME/
 export PATH="$HOME/go/bin:$PATH"
 export PATH="$$HOME/.cargo/bin:$PATH"
 export PATH="/Users/mariusbitca/.gem/ruby/3.0.0/bin:$PATH"
+export PATH="/Users/mariusbitca/homebrew/opt/openssl@3/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -178,6 +179,7 @@ alias dst="se deploy bucket s"
 alias dpr="se deploy bucket p"
 alias n="nvim"
 alias g="lazygit"
+alias dots="nvim ~/dotfiles"
 
 function gsa() {
   git stash apply stash@{"$1"}
@@ -205,3 +207,5 @@ function spush() {
 }
 
 ulimit -n 4096
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
