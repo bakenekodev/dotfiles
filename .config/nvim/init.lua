@@ -74,7 +74,8 @@ require("telescope").load_extension("fzf")
 
 -- base
 
-vim.cmd("colorscheme tokyobones")
+-- vim.cmd("set background=light")
+vim.cmd("colorscheme moonlight")
 vim.cmd("set number")
 
 -- plugins
@@ -88,6 +89,7 @@ local lspconfig = require("lspconfig")
 -- lspconfig.ruby_ls.setup({})
 lspconfig.solargraph.setup({})
 lspconfig.rust_analyzer.setup({})
+lspconfig.zls.setup({})
 
 lspconfig.lua_ls.setup({
 	settings = {

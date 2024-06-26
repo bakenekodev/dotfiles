@@ -244,4 +244,5 @@ return {
 	"RRethy/nvim-treesitter-endwise",
 	"sindrets/diffview.nvim",
   { "m4xshen/autoclose.nvim", opts = {} },
+{"shaunsingh/moonlight.nvim"},
 }

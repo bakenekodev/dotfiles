@@ -183,3 +183,10 @@ eval "$(fzf --zsh)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# if ! command -v pokemon-colorscripts &> /dev/null
+# then
+#   :
+# else
+#   pokemon-colorscripts -r --no-title
+# fi
